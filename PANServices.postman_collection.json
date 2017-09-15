@@ -1,0 +1,111 @@
+{
+	"variables": [],
+	"info": {
+		"name": "PANServices",
+		"_postman_id": "9b259eff-92d4-bd90-2d19-4b68b200ee99",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:5000/api/panimal",
+			"request": {
+				"url": "http://localhost:5000/api/panimal",
+				"method": "GET",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"key\": 1,\n\t\"Name\": \"Pancake\",\n\t\"URL\": \"http://www.google.com\"\n}"
+				},
+				"description": "Get All Panimals"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api/panimal",
+			"request": {
+				"url": "http://localhost:5000/api/panimal/1",
+				"method": "GET",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"key\": 1,\n\t\"Name\": \"Pancake\",\n\t\"URL\": \"http://www.google.com\"\n}"
+				},
+				"description": "Get a Panimal"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api/panimal/1",
+			"request": {
+				"url": "http://localhost:5000/api/panimal/1",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\n        \"id\": 1,\n        \"name\": \"Pantherssss\",\n        \"url\": \"https://i.ytimg.com/vi/x8V-i1YoFbY/maxresdefault.jpg\"\n    }"
+				},
+				"description": "Update a Panimal"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api/panimal",
+			"request": {
+				"url": "http://localhost:5000/api/panimal",
+				"method": "POST",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"Name\": \"Pancake\",\n\t\"URL\": \"https://www.ihop.com/-/media/dineequity/ihop/images/menu/menuitems/pancakes/original-buttermilk-pancakes/original_-buttermilk_pancakes.ashx\"\n}"
+				},
+				"description": "Add a Panimal"
+			},
+			"response": []
+		}
+	]
+}
