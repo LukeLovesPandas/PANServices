@@ -1,0 +1,10 @@
+C:\Development\PAN\PANServices\bin\Debug\netcoreapp2.0\PANServices.deps.json
+C:\Development\PAN\PANServices\bin\Debug\netcoreapp2.0\PANServices.runtimeconfig.json
+C:\Development\PAN\PANServices\bin\Debug\netcoreapp2.0\PANServices.runtimeconfig.dev.json
+C:\Development\PAN\PANServices\bin\Debug\netcoreapp2.0\PANServices.dll
+C:\Development\PAN\PANServices\bin\Debug\netcoreapp2.0\PANServices.pdb
+C:\Development\PAN\PANServices\obj\Debug\netcoreapp2.0\PANServices.csproj.CoreCompileInputs.cache
+C:\Development\PAN\PANServices\obj\Debug\netcoreapp2.0\PANServices.AssemblyInfoInputs.cache
+C:\Development\PAN\PANServices\obj\Debug\netcoreapp2.0\PANServices.AssemblyInfo.cs
+C:\Development\PAN\PANServices\obj\Debug\netcoreapp2.0\PANServices.dll
+C:\Development\PAN\PANServices\obj\Debug\netcoreapp2.0\PANServices.pdb
